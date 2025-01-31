@@ -1,0 +1,52 @@
+/* Main Page */
+.main-page {
+    background: linear-gradient(to bottom right, #f7b5d4, #f6d6ea);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 50%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Adding margin to move buttons down */
+.buttons {
+    margin-top: 40px; /* Adjust this value to move buttons lower */
+}
+
+.buttons a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    color: white;
+    transition: 0.3s;
+}
+
+.yes-btn {
+    background: #FF80BF;
+}
+
+.no-btn {
+    background: #FFC0CB;
+}
+
+.buttons a:hover {
+    opacity: 0.8;
+}
