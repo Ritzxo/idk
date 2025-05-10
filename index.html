@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Happy Birthday WANIAAAAAA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Landing -->
+  <section id="landing">
+    <h1>HAPPY BIRTHDAY TO THE PRETTIEST GIRL EVER!</h1>
+    <div class="sparkles"></div>
+    <audio id="bg-music" loop>
+      <source src="TheTurtles-SoHappyTogether.ogg" type="audio/mpeg">
+    </audio>
+    <div class="audio-controls">
+        <button id="play-pause">Play</button>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+      </div>
+  </section>
+
+  <!-- Love Notes Carousel -->
+  <section id="love-notes">
+    <h2>Reasons I LOVE YOU SOSOSOOSOSOSOOS MUCH</h2>
+    <div class="carousel">
+      <button class="nav prev">‹</button>
+      <div class="cards">
+        <div class="card">KINDEST PERSON EVERVERVEREVEREVERGVER</div>
+        <div class="card">SOMEONE WHO I CAN TRUST WITH MY LIFE BLINDLY</div>
+        <div class="card">YOU CARE ABOOUT ME LIKE NO ONE ELSE EVER</div>
+        <div class="card">AND I CAN GO ON FOOREVER AND EVER BUT UD BE BORED</div>
+        <!-- add more <div class="card">…</div> here -->
+      </div>
+      <button class="nav next">›</button>
+    </div>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section id="gallery">
+    <h2>US TOGETHER INSHA ALLAH NEXT TIME WE'LL HAVE IRL PICTURES TOGETHER</h2>
+    <div class="grid">
+      <img src="image0.jpg" alt="Us">
+      <img src="image1.jpg" alt="Us">
+      <img src="image2.jpg" alt="Us">
+      <img src="image4.jpg" alt="Us">
+      <!-- add more photos -->
+    </div>
+  </section>
+
+  <!-- Gift Box -->
+  <section id="gift">
+    <h2>CLICK ME!</h2>
+    <div class="gift-box">
+      <div class="lid"></div>
+      <div class="box"></div>
+    </div>
+    <div id="gift-message" class="hidden">
+      <p>SOME WORDS THAT I MEAN FROM THE BOTTOM OF MY HEART IN CHAT</p>
+    </div>
+  </section>
+
+  <!-- Puzzle -->
+  <section id="puzzle">
+    <h2>Mini Puzzle</h2>
+    <canvas id="puzCanvas"></canvas>
+    <button id="shuffle">Shuffle</button>
+  </section>
+
+  <!-- Message Box & Emoji Rain -->
+  <section id="message">
+    <h2>Send Me a Message ❤️</h2>
+    <input type="text" id="msgInput" placeholder="Type something...">
+    <button id="sendMsg">Send</button>
+    <div id="emoji-rain"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
